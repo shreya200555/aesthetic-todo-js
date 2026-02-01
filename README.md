@@ -1,2 +1,13 @@
-# aesthetic-todo-js
-A soft-aesthetic to-do list built with vanilla JavaScript, focusing on clean UI, smooth interactions, and thoughtful UX.
+🌸 Aesthetic To-Do List (Vanilla JS)
+
+Features:
+- Add tasks using Enter key
+- Mark tasks as completed
+- Clear all tasks
+- Scroll-safe UI
+- Soft pastel aesthetic design
+
+Built with:
+- HTML
+- CSS
+- Vanilla JavaScript
