@@ -1,0 +1,103 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    background-image: url(bggg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+#big-container{
+    background-color: #f2b6c6;
+    width: 500px;
+    height: 700px;
+    border: 2px solid #f2b6c6;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#to-do{
+    margin: 30px;
+    padding: 20px;
+    color: #7c927f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+#text-box{
+    width: 350px;
+    outline: none;
+    border: 1px solid #f2b6c6;
+    border-radius: 20px;
+    height: 30px;
+    background-color: #9bb49f;
+    color:rgb(255, 238, 238); 
+}
+#text-box::placeholder{
+    color:rgb(255, 238, 238); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#text-box:focus{
+    border-color: #7c927f;
+}
+#small-container{
+    background-color: #97b19b;
+    margin: 50px;
+    height: 430px;
+    width: 390px;
+    border: 2px solid #f2b6c6;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+
+
+
+}
+#l-list{
+    display: flex;
+    flex-direction: column;
+
+    align-self: stretch;
+    margin: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    list-style: none;
+    color: rgb(255, 238, 238);
+
+}
+input[type="checkbox"]{
+    accent-color: #f2b6c6;
+}
+
+
+#btn{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 10px;
+    border: 2px solid #f1c1ce;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    color: rgb(255, 238, 238);
+    background-color:#f1c1ce;
+}
+#btn:hover{
+    color:#7c927f ;
+
+}
+.completed{
+    text-decoration: line-through;
+}
